@@ -3,6 +3,7 @@ import torch.optim as op
 import matplotlib.pyplot as plt
 import numpy as np
 
+# création de la classe Simulateur
 class Simulateur:
     def __init__(self, x0 = t.tensor([0, 0]), v0 = t.tensor([10, 10]), g = 9.81):
         self.x0 = x0
